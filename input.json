@@ -1,0 +1,96 @@
+{
+    "Records": [
+        {
+            "eventID": "d3b2ed413a9eb9771c137a64e527f5ab",
+            "eventName": "INSERT",
+            "eventVersion": "1.1",
+            "eventSource": "aws:dynamodb",
+            "awsRegion": "eu-central-1",
+            "dynamodb": {
+                "ApproximateCreationDateTime": 1591814165,
+                "Keys": {
+                    "id": {
+                        "S": "7d4e9c54-371e-4ff1-8113-9d9d2c51eff3"
+                    }
+                },
+                "NewImage": {
+                    "amount": {
+                        "N": "30"
+                    },
+                    "jobStatus": {
+                        "S": "OPEN"
+                    },
+                    "address": {
+                        "S": "bernard Strasse 39"
+                    },
+                    "isVolunteerJob": {
+                        "BOOL": false
+                    },
+                    "city": {
+                        "S": "Offenbach am main"
+                    },
+                    "endDate": {
+                        "S": "11/6/2020"
+                    },
+                    "__typename": {
+                        "S": "Job"
+                    },
+                    "description": {
+                        "S": "temp description"
+                    },
+                    "seekerDetails": {
+                        "L": [
+                            {
+                                "M": {
+                                    "name": {
+                                        "S": "uchil"
+                                    },
+                                    "email": {
+                                        "S": "ashwin3842@gmail.com"
+                                    },
+                                    "status": {
+                                        "S": "OPEN"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "createdAt": {
+                        "S": "2020-06-10T18:36:04.656Z"
+                    },
+                    "jobID": {
+                        "S": "2020-06-10T20:36:02.933"
+                    },
+                    "pinCode": {
+                        "N": "63067"
+                    },
+                    "noOfHours": {
+                        "N": "5"
+                    },
+                    "startTime": {
+                        "S": "20:35"
+                    },
+                    "endTime": {
+                        "S": "22:34"
+                    },
+                    "id": {
+                        "S": "7d4e9c54-371e-4ff1-8113-9d9d2c51eff3"
+                    },
+                    "jobType": {
+                        "S": "Store Management"
+                    },
+                    "startDate": {
+                        "S": "10/6/2020"
+                    },
+                    "updatedAt": {
+                        "S": "2020-06-10T18:36:04.656Z"
+                    }
+                },
+                "SequenceNumber": "141319400000000003048872872",
+                "SizeBytes": 464,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventSourceARN": "arn:aws:dynamodb:eu-central-1:623822122299:table/Job-ej6bbz6azjgs7a5frfativajte-transenv/stream/2020-05-11T22:46:12.133"
+        }
+    ]
+}
